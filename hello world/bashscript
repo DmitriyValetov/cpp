@@ -1,0 +1,2 @@
+# to make it runable: $ chmod ugo+x bashscript
+g++ -lm -o output hello.cpp

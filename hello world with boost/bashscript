@@ -1,0 +1,9 @@
+# 0) install boost with: $ sudo apt-get install libboost-all-dev
+
+# to make it runable: $ chmod ugo+x bashscript
+
+# compile
+g++ -o boost_hello boost_hello.cpp -lboost_system -lboost_date_time -lboost_thread
+
+# run
+./boost_hello
